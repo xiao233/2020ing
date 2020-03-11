@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: x7-core
+server:
+  port: 23301
+
+
+

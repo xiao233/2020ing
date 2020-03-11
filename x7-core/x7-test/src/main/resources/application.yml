@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: x7-core
+
+  #redis 集群地址
+  redis:
+    cluster:
+      nodes: 192.168.31.149:6379,192.168.31.149:6380,192.168.31.155:6379,192.168.31.155:6380,192.168.31.154:6379,192.168.31.154:6380,192.168.31.153:6379,192.168.31.153:6380
+    timeout: 10000
+#  security:
+#    user:
+#      name: xiao
+#      password: xiao
+
+server:
+  port: 23300
+
+swagger:
+  enable: true
+
